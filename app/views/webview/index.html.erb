@@ -1,0 +1,22 @@
+
+<div class="content-padded">
+
+  <div class="card">
+    <ul class="table-view">
+      <li class="table-view-cell">
+        Email:<br/>
+        <%= @user.email %>
+      </li>
+      <li class="table-view-cell">
+        Sign in count: <span class="badge"><%= @user.sign_in_count %></span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content-padded">
+    <button class="btn btn-primary btn-block" data-btn-click="primary">Primary</button>
+    <button class="btn btn-positive btn-block" data-btn-click="positive">Positive</button>
+    <button class="btn btn-negative btn-block" data-btn-click="negative">Negative</button>
+  </div>
+
+</div>
